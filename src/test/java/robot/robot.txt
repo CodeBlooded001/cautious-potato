@@ -1,0 +1,19 @@
+1.Robot is a Java Class
+2.Selenium-based test automation framework uses it for simulating the keyboard and mouse events.
+3.It can automate desktop popups also.
+4.To handle native OS pop-ups we need Robot class.
+5.Example:
+	For instance, if you are trying to download Email Attachment, Windows pop-up, 
+    'Save Attachment' prompts to specify Download Location, appears. It is nothing 
+	but a native OS pop-up.
+6.Desktop windows pop-up will not have locators so actions class cannot help.
+
+ROBOT:
+	1. This class is used to generate native system input events.
+	2. This class uses native system events to control the mouse and keyboard.
+	3. Pre-defined methods : keyPress(), keyRelease(), mousePress()
+						     mouseMove(), mouseRelease(), mouseWheel()
+						     delay(), createScreenCapture().
+						     
+** While using ROBOT class better to used try- catch block. They usually throw checked exceptions
+   like AWTExceptions
