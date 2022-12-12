@@ -51,7 +51,7 @@ public class base {
     	driver.manage().window().maximize();
     	driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(3000));
     	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2000));
-    	driver.get(props.getProperty("tutorialsninjaURL"));
+    	driver.get(props.getProperty("omayoURL"));
     	log.debug("Launched Application");
     	
     }

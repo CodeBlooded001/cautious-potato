@@ -56,5 +56,14 @@ Robot Screen shot : 2 ways : 1. Rectangle and 2. Dimension
 			ImageIO.write(srcFile2, "PNG", new File("./screenshots/robot2.png"));
 			
 			
+Robot mouseWheel() :
+
+			Scrolling page
 			
+			Robot robot = new Robot();
+			robot.mouseWheel(15); //positive values - scrolls down
+			robot.delay(2000);
+			robot.mouseWheel(-8); //negative values - scrolls up	
+			
+			***robot.delay - is alternative for Thread.sleep().	
 			
