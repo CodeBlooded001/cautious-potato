@@ -32,7 +32,7 @@ public class KeyPressReleaseDemo extends base {
 			e.printStackTrace();
 		}
 		
-		
+		driver.quit();
 	}
 
 }
